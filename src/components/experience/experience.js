@@ -4,8 +4,10 @@ import experience from '../../assets/lottie/development.json';
 import { ThemeContext } from '../../contexts/theme-context';
 import { experienceData } from '../../data/experience-data';
 import styles from '../../styles/experience.module.css';
-import AnimationLottie from '../animation';
 import ExperienceCard from './experience-card';
+import dynamic from 'next/dynamic';
+
+const AnimationLottie = dynamic(() => import('../components/AnimationLottie'), { ssr: false });
 
 function Experience() {
 
