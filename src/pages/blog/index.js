@@ -5,16 +5,16 @@ import { AiOutlineHome } from "react-icons/ai";
 import { SingleBlog } from '../../components';
 import Link from '../../components/link';
 import { ThemeContext } from '../../contexts/theme-context';
-import { blogData } from '../../data/blogData';
+// import { blogData } from '../../data/blogData';
 
 function BlogPage() {
     const [search, setSearch] = useState('')
     const { theme } = useContext(ThemeContext);
 
-    const filteredArticles = blogData.filter((blog) => {
-        const content = blog.title + blog.description + blog.date
-        return content.toLowerCase().includes(search.toLowerCase())
-    })
+    // const filteredArticles = blogData.filter((blog) => {
+    //     const content = blog.title + blog.description + blog.date
+    //     return content.toLowerCase().includes(search.toLowerCase())
+    // })
 
     const useStyles = makeStyles((t) => ({
         search: {
@@ -83,7 +83,7 @@ function BlogPage() {
                         placeholder="Seach blog..."
                         className={classes.search} />
                 </div>
-                <div className="blogs--container">
+                {/* <div className="blogs--container">
                     <Grid
                         className="blog-grid" container direction="row"
                         alignItems="center" justifyContent="center">
@@ -100,7 +100,7 @@ function BlogPage() {
                             />
                         ))}
                     </Grid>
-                </div>
+                </div> */}
             </div>
         </div>
     )
