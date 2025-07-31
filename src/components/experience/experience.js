@@ -7,7 +7,7 @@ import styles from '../../styles/experience.module.css';
 import ExperienceCard from './experience-card';
 import dynamic from 'next/dynamic';
 
-const AnimationLottie = dynamic(() => import('../components/AnimationLottie'), { ssr: false });
+const AnimationLottie = dynamic(() => import('../animation'), { ssr: false });
 
 function Experience() {
 
