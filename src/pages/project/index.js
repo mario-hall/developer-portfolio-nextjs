@@ -5,16 +5,16 @@ import { AiOutlineHome } from "react-icons/ai";
 import { SingleProject } from '../../components';
 import Link from '../../components/link';
 import { ThemeContext } from '../../contexts/theme-context';
-// import { projectsData } from '../../data/projectsData';
+import { projectsData } from '../../data/projectsData';
 
 function ProjectPage() {
     const [search, setSearch] = useState('')
     const { theme } = useContext(ThemeContext);
 
-    // const filteredArticles = projectsData.filter((project) => {
-    //     const content = project.projectName + project.projectDesc + project.tags
-    //     return content.toLowerCase().includes(search.toLowerCase())
-    // })
+    const filteredArticles = projectsData.filter((project) => {
+        const content = project.projectName + project.projectDesc + project.tags
+        return content.toLowerCase().includes(search.toLowerCase())
+    })
 
     const useStyles = makeStyles((t) => ({
         search: {
@@ -82,7 +82,7 @@ function ProjectPage() {
                     <Grid className="project-grid"
                         container direction="row" alignItems="center"
                         justifyContent="center">
-                        {/* {filteredArticles.map(project => (
+                        {filteredArticles.map(project => (
                             <SingleProject
                                 theme={theme}
                                 key={project.id}
@@ -94,7 +94,7 @@ function ProjectPage() {
                                 demo={project.demo}
                                 image={project.image}
                             />
-                        ))} */}
+                        ))}
                     </Grid>
                 </div>
             </div>

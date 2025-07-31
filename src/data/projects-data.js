@@ -23,7 +23,7 @@ export const projectsData = [
         projectName: 'Jewelry Niche',
         projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
         tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/mario-hall/jewelry-niche',
+        code: 'https://github.com/said7388/jewelry-niche',
         demo: 'https://pandora-web.netlify.app/',
         image: seven
     },
@@ -32,7 +32,7 @@ export const projectsData = [
         projectName: 'Travel Agency',
         projectDesc: 'This project about travel agency management.',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/mario-hall/Travel-Agency-client',
+        code: 'https://github.com/said7388/Travel-Agency-client',
         demo: 'https://travel-agency-fc58b.web.app/',
         image: eight
     },
