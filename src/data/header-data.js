@@ -1,9 +1,9 @@
 
 export const headerData = {
-    name: 'ABU SAID',
+    name: 'MARIO HALL',
     title: "Hello! I am",
-    desciption: "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-    image: 'https://i.ibb.co/ZmdNH6x/abu-said.jpg',
-    imagebw: 'https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg',
-    resumePdf: 'https://docs.google.com/document/d/1MkkoRX98FS47CaEyeodyPzi4OkW8SH7Gv55f4MQkHV8/'
+    desciption: "Experienced and innovative software engineer with 8 years of expertise in designing and implementing cutting-edge software solutions to drive business efficiency. Proficient in all phases of the software development life cycle, from initial planning to deployment, with a strong track record of managing projects from start to finish. Known for being a proactive, hands-on leader with a talent for guiding cross-functional teams in high-pressure, deadline-focused environments to deliver projects on time and within budget. Core competencies include database management, Golang, Python, Node.js, and React.",
+    image: 'https://i.ibb.co/PvVPqnNw/mario-hall-1.png',
+    imagebw: 'https://i.ibb.co/PvVPqnNw/mario-hall-1.png',
+    resumePdf: '/' 
 }

@@ -105,7 +105,10 @@ function Landing() {
                             strings={[
                                 'Backend Developer',
                                 'Frontend Developer',
-                                'Fullstack Developer']}
+                                'Fullstack Developer',
+                                'Sr. Go/Web Developer',
+                                'AI Engineer'
+                            ]}
                             typeSpeed={40}
                             backSpeed={50}
                             className={styles.typedHeader}
