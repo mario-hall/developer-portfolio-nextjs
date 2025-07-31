@@ -67,7 +67,7 @@ function BlogPage() {
             className="blogPage"
             style={{ backgroundColor: theme.secondary }}>
 
-            <div
+            {/* <div
                 className="blogPage--header"
                 style={{ backgroundColor: theme.primary }}>
                 <Link href="/">
@@ -101,7 +101,7 @@ function BlogPage() {
                         ))}
                     </Grid>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

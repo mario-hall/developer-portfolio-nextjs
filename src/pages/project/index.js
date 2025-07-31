@@ -63,8 +63,8 @@ function ProjectPage() {
     const classes = useStyles();
 
     return (
-        <div className="projectPage" style={{ backgroundColor: theme.secondary }}>
-
+        <div classZName="projectPage" style={{ backgroundColor: theme.secondary }}>
+{/* 
             <div className="projectPage-header" style={{ backgroundColor: theme.primary }}>
                 <Link href="/">
                     <AiOutlineHome className={classes.home} />
@@ -97,7 +97,7 @@ function ProjectPage() {
                         ))}
                     </Grid>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
